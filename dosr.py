@@ -5,6 +5,8 @@ import subprocess
 """ this program attempts to find DosR transcription factor binding sites 
 in tuberculosis-causing bacteria. """
 
+"Note, this block of text is a test related to using git.  I wont to see if git records this"""
+
 # Insert your randomized_motif_search function here, along with any subroutines you need
 def read_input_file(input_file_path, t):
     """ Funciton reads a variety of input txt files to pass into this script. """
@@ -38,7 +40,7 @@ def find_dosr_motif(dna):
 
     print(best_kmers, best_score)
 
-t = 5
+t = 4
 dna = read_input_file('input.txt', t)
 
 find_dosr_motif(dna)
